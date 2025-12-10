@@ -1,34 +1,19 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <title>Quiricloud Demo Cache</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preload" href="style.css" as="style">
-  <link rel="stylesheet" href="style.css">
-  <script defer src="app.js"></script>
+  <meta charset="UTF-8">
+  <title>Home - Test Sicurezza</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Cache Demo — robertodesantis.me</h1>
-    <p id="ts"></p>
-  </header>
-
-  <main>
-    <section>
-      <h2>Contenuti statici</h2>
-      <p>Questa pagina è pensata per mostrare MISS → HIT su Cloudflare.</p>
-      <img src="images/logo.png" alt="Logo" width="160">
-    </section>
-
-    <section>
-      <h2>API di prova (bypass cache)</h2>
-      <pre id="api"></pre>
-    </section>
-  </main>
-
-  <footer>
-    <small>Build: <span id="build"></span></small>
-  </footer>
+  <h1>Benvenuto al sito di test</h1>
+  <p>Questo dominio statico serve per esercitazioni su Cloudflare WAF, Bot Management, Rate Limiting e Zero-Trust.</p>
+  <ul>
+    <li><a href="search.html">Test WAF (SQLi/XSS)</a></li>
+    <li><a href="robots.html">Test Bot Management</a></li>
+    <li><a href="quiz.html">Quiz anti-bot</a></li>
+    <li><a href="api/test.json">API test (Rate Limiting)</a></li>
+    <li><a href="admin/admin.html">Admin Panel (Zero-Trust)</a></li>
+  </ul>
 </body>
 </html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Ricerca Vulnerabile</title>
+</head>
+<body>
+  <h2>Form di ricerca (simulazione vulnerabile)</h2>
+  <form action="" method="get">
+    <label for="q">Query:</label>
+    <input type="text" id="q" name="q" placeholder="Inserisci testo...">
+    <button type="submit">Cerca</button>
+  </form>
+  <p>Prova query malevole: <code>?q=&lt;script&gt;alert(1)&lt;/script&gt;</code> o <code>?q=1' OR '1'='1</code></p>
+</body>
+</html>
